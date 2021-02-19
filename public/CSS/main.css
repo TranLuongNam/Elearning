@@ -1,0 +1,561 @@
+#header {
+    background: #ff4f81;
+    color: white;
+}
+.header__right i {
+    background: #333333;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid transparent;
+}
+.header__right i:hover {
+    background: #ff4f81;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+
+.navbar-brand--logo p {
+    color: #ff4f81;
+    font-size: 0.8em;
+    margin-top: -5px;
+}
+.navbar-nav--menu .nav-item .nav-link {
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-nav--menu .nav-item {
+    margin-left: 20px;
+}
+.navbar-nav--menu {
+    margin-top: -35px;
+}
+
+.navbar-nav--menu .nav-item .nav-link:hover {
+    color: #ff4f81;
+    transition: all 0.5s;
+}
+
+.nav-item__line {
+    width: 0;
+    height: 3px;
+    background: #ff4f81;
+    transition: all 0.5s;
+}
+
+.navbar-nav--menu .nav-item:hover .nav-link {
+    color: #ff4f81;
+}
+
+.navbar-nav--menu .nav-item:hover .nav-item__line {
+    width: 100%;
+}
+
+.navbar-nav--menu .nav-item.active .nav-link {
+    color: #ff4f81;
+}
+.navbar-nav--menu .nav-item.active .nav-item__line {
+    width: 100%;
+}
+
+/*--------------- CAROUSEL------------------- */
+
+.carousel-inner .carousel-item img {
+    height: 600px;
+}
+.carousel-caption--config {
+    bottom: 30%;
+    color: black;
+}
+.carousel-caption--config h1 {
+    letter-spacing: 2px;
+}
+.carousel-caption--config p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.carousel-caption--config button {
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    background: #ff4f81;
+}
+.carousel-caption--config button:hover {
+    background: white;
+    transition: all 0.5s;
+}
+
+.carousel-indicators-config {
+    bottom: 10%;
+}
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 1.5px solid white;
+    border-radius: 50%;
+}
+.carousel-indicators li.active {
+    background: white;
+}
+
+/* ----------------MODAL CAROUSEL--------------- */
+
+.modal-content .modal-body .img-fluid-edit {
+    width: 350px;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+.modal-header--carousel h2 {
+    color: #ff4f81;
+}
+
+/* ----------------WELCOME TO EDUCATION----------------- */
+.welcome-title h1 {
+    color: #ff4f81;
+    letter-spacing: 2px;
+}
+.welcome-title span {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.welcome-title p {
+    letter-spacing: 1px;
+    margin-top: 40px;
+    padding: 0 7%;
+}
+.welcome-title__line {
+    width: 100px;
+    height: 2px;
+    background: black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.education-course i {
+    font-size: 30px;
+}
+.education-course h2 {
+    color: #ff4f81;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.education-course h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.education-course p {
+    font-size: 15px;
+    color: #999;
+}
+
+/* ------------OUR STARTS------------ */
+.start-section {
+    min-height: 450px;
+    background-image: url(../image/transparent\(2\).png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.star-title {
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.star-title__line {
+    width: 100px;
+    height: 2px;
+    background: black;
+    margin: auto;
+    margin-top: 20px;
+}
+.star-title h1 {
+    color: #ff4f81;
+    letter-spacing: 2px;
+}
+.star-detail h2 {
+    color: #ff4f81;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.star-detail {
+    text-align: center;
+    color: white;
+}
+.star-detail i,
+.star-detail p {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+/* -------------OFFER------------ */
+.offer-title {
+    text-align: center;
+
+    margin-top: 50px;
+}
+.offer-title h1 {
+    color: #ff4f81;
+    letter-spacing: 1px;
+}
+.offer-title p {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.offer-title__line {
+    width: 100px;
+    height: 2px;
+    background: black;
+    margin: auto;
+    margin-top: 20px;
+}
+.offer-item {
+    margin-top: 50px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 4px 4px #aaa;
+    -moz-box-shadow: 0px 0px 4px 4px #aaa;
+    -o-box-shadow: 0px 0px 4px 4px #aaa;
+    box-shadow: 0px 0px 4px 4px #aaa;
+    padding: 2rem 1rem;
+}
+.offer-item i {
+    font-size: 30px;
+    color: #ff4f81;
+    margin-bottom: 10px;
+}
+.offer-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* --------------------TESTIMONIALS-------------------- */
+.test-section {
+    margin-top: 80px;
+    min-height: 500px;
+    background-image: url(../image/transparent\(2\).png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.test-title {
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+}
+.test-title h1 {
+    color: #ff4f81;
+}
+.test-title__line {
+    width: 100px;
+    height: 2px;
+    background: black;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.test-slider {
+    background: rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 0px 0px 2px 1px #8e8e8e;
+    -moz-box-shadow: 0px 0px 2px 1px #8e8e8e;
+    -o-box-shadow: 0px 0px 2px 1px #8e8e8e;
+    box-shadow: 0px 0px 2px 1px #8e8e8e;
+    padding: 30px;
+}
+.item__box {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+.item__box::after {
+    content: "";
+    border-top: 9px solid rgba(0, 0, 0, 0.6);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    bottom: -9%;
+    left: 27%;
+}
+.item__user {
+    margin-left: 30%;
+    color: white;
+    margin-bottom: 25px;
+}
+.owl-carousel .item__user img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.item__user p {
+    font-weight: bold;
+}
+.item__user span {
+    font-size: 16px;
+    color: #ff4f81;
+}
+.owl-theme--config .owl-dots .owl-dot span {
+    background: #ff4f81;
+    opacity: 0.5;
+}
+.owl-theme--config .owl-dots .owl-dot.active span,
+.owl-theme--config .owl-dots .owl-dot span:hover {
+    background: #ff4f81;
+    opacity: 1;
+}
+
+/* ----------------NEWS AND EVENT----------------- */
+.event-section {
+    padding: 3rem 15px;
+}
+.event-title {
+    text-align: center;
+    letter-spacing: 2px;
+}
+.event-title h1 {
+    color: #ff4f81;
+}
+.event-img img {
+    border: solid #dedede;
+    height: 259px;
+    width: 445px;
+}
+
+.event-info h2 {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.event-info h2:hover {
+    color: #ff4f81;
+}
+.event-info span {
+    font-size: 1em;
+    color: #ff4f81;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.event-info p {
+    font-size: 1em;
+    color: #999999;
+    margin-top: 30px;
+}
+.event-spacing {
+    height: 4rem;
+    width: 100%;
+}
+
+/* ---------------FOOTER----------------- */
+.footer {
+    background: rgba(0, 0, 0, 0.9);
+}
+.footer-detail {
+}
+.footer-detail p {
+    color: #8b8b96;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.footer-detail__col {
+    margin-bottom: 30px;
+}
+.footer-detail__col h4 {
+    color: #ff4f81;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.footer-detail__LastestNews i {
+    color: #ff4f81;
+    margin-right: 10px;
+}
+.footer-detail__ContactInfo i {
+    border: 1px solid white;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.footer-detail__form {
+    margin-bottom: 50px;
+}
+.footer-detail__form h4 {
+    color: #ff4f81;
+}
+.footer-detail__form input {
+    width: 500px;
+    margin-right: 20px;
+    height: 35px;
+}
+.footer-detail__form button {
+    background: #ff4f81;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 3px;
+    color: white;
+}
+.footer-detail__form button:hover {
+    background: #ec1955;
+}
+.footer__copyright p {
+    text-align: center;
+    background: black;
+    padding: 10px;
+    color: white;
+}
+.footer__copyright p span {
+    color: #ff4f81;
+}
+
+/* ----------------MEDIA QUERY--------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand--logo h2 {
+        font-size: 28px;
+    }
+    .navbar-brand--logo p {
+        font-size: 16px;
+    }
+    .navbar-nav--menu .nav-item {
+        margin-left: 5px;
+    }
+    .offer-item h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .offer-item p {
+        font-size: 14px;
+    }
+    .footer-detail__form input {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 348px) {
+    .navbar-brand--logo h2 {
+        font-size: 18px;
+    }
+    .navbar-brand--logo p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .carousel-caption--config {
+        bottom: 25%;
+    }
+    .carousel-caption--config h1 {
+        font-size: 28px;
+    }
+    .carousel-caption--config p {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .carousel-indicators-config {
+        bottom: 20%;
+    }
+    .modal-content .modal-body .img-fluid-edit {
+        margin-left: 10px;
+    }
+    .modal-header--carousel h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .education-course i {
+        margin-left: 35px;
+    }
+    .education-course h2 {
+        color: #ff4f81;
+        font-size: 22px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .education-course h3 {
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .education-course p {
+        font-size: 15px;
+        color: #999;
+        text-align: center;
+    }
+    .event-info span {
+        margin: 0px;
+    }
+    .event-info p {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 767px) {
+    .navbar-toggler--button{
+        margin-bottom: 20px;
+    }
+    .welcome-title h1 {
+        color: #ff4f81;
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    .welcome-title span {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    .welcome-title p {
+        letter-spacing: 1px;
+        margin-top: 20px;
+        padding: 0 7%;
+    }
+    .welcome-title__line {
+        width: 100px;
+        height: 2px;
+        background: black;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .footer-detail__col h4 {
+        text-align: center;
+    }
+    .footer-detail__form h4 {
+        color: #ff4f81;
+        text-align: center;
+    }
+    .footer-detail__form input {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .navbar-brand--logo h2 .star-title {
+        margin-bottom: 30px;
+    }
+    .star-title h1 {
+        font-size: 35px;
+    }
+    .star-detail h2 {
+        color: #ff4f81;
+        font-size: 21px;
+    }
+    .star-detail i,
+    .star-detail p {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .footer-detail__col h4 {
+        text-align: center;
+    }
+    .footer-detail__form h4 {
+        color: #ff4f81;
+        text-align: center;
+    }
+    .footer-detail__form input {
+        width: 400px;
+    }
+}
